@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $title ?? 'Page Title' }}</title>
+    <title>{{ $title ? 'Game Vortex - ' . $title : 'Game Vortex' }}</title>
     @vite('resources/css/app.css')
 </head>
 
@@ -13,9 +13,9 @@
     <header class="mx-auto h-14 bg-gray-950 rounded-b-full max-w-5xl xl:max-w-6xl w-full shadow-lg flex items-center">
         <div class="grid grid-cols-3 text-cyan-primary font-semibold w-full">
             <nav class="w-full flex space-x-0 justify-end items-center ">
-                <a href="/" wire:navigate class="px-2 py-2 rounded-full hover:bg-gray-800 transition duration-250"> Games </a>
-                <a href="/reviews" wire:navigate class="px-2 py-2 rounded-full hover:bg-gray-800 transition duration-250"> Reviews </a>
-                <a href="/coming-soon" wire:navigate class="px-2 py-2 rounded-full hover:bg-gray-800 transition duration-250 whitespace-nowrap"> Coming soon </a>
+                <a href="/" wire:navigate class="p-2 rounded-full hover:bg-gray-800 transition duration-250"> Games </a>
+                <a href="/reviews" wire:navigate class="p-2 rounded-full hover:bg-gray-800 transition duration-250"> Reviews </a>
+                <a href="/coming-soon" wire:navigate class="p-2 rounded-full hover:bg-gray-800 transition duration-250 whitespace-nowrap"> Coming soon </a>
             </nav>
             <div class="flex justify-center items-center">
                 <a href="/" wire:navigate class="p-2 rounded-full hover:bg-gray-800 transition duration-250 text-2xl font-bold flex items-center"> 
@@ -48,13 +48,13 @@
     <footer class="mx-auto h-14 bg-gray-950 rounded-t-full max-w-5xl xl:max-w-6xl w-full shadow-lg flex items-center mt-96">
         <div class="grid grid-cols-3 text-cyan-primary  w-full">
         <div class="col-start-1 flex justify-end">
-            <a href="https://www.igdb.com/api" class="px-2 py-2 rounded-full hover:bg-gray-800 transition duration-250">
+            <a href="https://www.igdb.com/api" class="p-2 rounded-full hover:bg-gray-800 transition duration-250">
                 Powered by
                 <span class="font-bold"> IGDB API </span>
             </a>
         </div>
         <div class="col-start-3 flex justify-start">
-            <a href="https://tallstack.dev/" class="px-2 py-2 rounded-full hover:bg-gray-800 transition duration-250">
+            <a href="https://tallstack.dev/" class="p-2 rounded-full hover:bg-gray-800 transition duration-250">
                 Built using the
                 <span class="font-bold"> TALL Stack </span>
             </a>
