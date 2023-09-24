@@ -9,6 +9,10 @@ export default {
     extend: {
       colors: {
         'cyan-primary': '#08ecec'
+      },
+      fontFamily: {
+        'ubuntu': 'Ubuntu',
+        'chakra-petch': '"Chakra Petch"',
       }
     },
   },
