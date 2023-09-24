@@ -44,13 +44,13 @@
     </header>
 
     <main class="max-w-7xl mx-auto">
-        <div class="mx-11 mt-11">
+        <div class="m-12">
             {{ $slot }}
         </div>
     </main>
 
-    <footer class="mx-auto h-14 bg-gray-950 lg:rounded-t-full max-w-7xl w-full shadow-lg flex items-center mt-96">
-        <div class="flex justify-between text-cyan-primary w-full mx-6 lg:mx-10 text-xs md:text-sm">
+    <footer class="mx-auto h-14 bg-gray-950 lg:rounded-t-full max-w-7xl w-full shadow-lg flex items-center">
+        <div class="flex justify-between text-cyan-primary w-full mx-6 lg:mx-20 text-xs md:text-sm">
             <div class="flex justify-end">
                 <a href="https://www.igdb.com/api" class="p-1.5 rounded-full hover:bg-gray-800 transition duration-250 text-center">
                     Powered by
