@@ -12,7 +12,7 @@
 <body class="bg-gray-800 min-h-screen lg:mx-14">
 
     <header class="mx-auto h-14 bg-gray-950 rounded-b-full max-w-7xl w-full shadow-lg flex items-center">
-        <div class="flex justify-between text-cyan-primary font-semibold w-full mx-10 h-full relative text-sm lg:text-base">
+        <div class="flex justify-between text-cyan-primary font-semibold w-full mx-8 md:mx-10 h-full relative text-sm lg:text-base">
         
             <div class="flex justify-center items-center absolute w-full h-full z-1">
                 <a href="/" wire:navigate class="p-1.5 rounded-full hover:bg-gray-800 transition duration-250 text-2xl font-bold flex items-center"> 
@@ -44,7 +44,7 @@
     </header>
 
     <main class="max-w-7xl mx-auto">
-        <div class="m-12">
+        <div class="mx-10 my-16">
             {{ $slot }}
         </div>
     </main>

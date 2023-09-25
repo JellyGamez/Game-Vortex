@@ -13,6 +13,9 @@ export default {
       fontFamily: {
         'ubuntu': 'Ubuntu',
         'chakra-petch': '"Chakra Petch"',
+      },
+      screens: {
+        'xs': '480px'
       }
     },
   },
