@@ -59,7 +59,7 @@
             </div>
             <div class="flex justify-start">
                 <a href="https://tallstack.dev/" class="p-1.5 rounded-full hover:bg-gray-800 transition duration-250 text-center">
-                    Built using the
+                    Built with the
                     <span class="font-bold"> TALL Stack </span>
                 </a>
             </div>
