@@ -1,5 +1,5 @@
-<div class="font-ubuntu duration-400 text-white max-w-xs">
-    <a wire:navigate href="/games/{{ $slug }}">
+<div class="font-ubuntu duration-400 text-white w-full">
+    <a wire:navigate href="/games/{{ $slug }}" class="flex">
         <div class="relative">
             <div class="overflow-hidden rounded-2xl hover:opacity-75 transition duration-200">
                 <img src="img/6-1-941782-52.webp" class="rounded-2xl hover:scale-[107%] transition duration-300">
@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div class="mt-2">
+        <div>
             <div class="text-center font-semibold">
                 {{ $title }}
             </div>

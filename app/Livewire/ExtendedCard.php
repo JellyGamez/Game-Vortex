@@ -4,7 +4,7 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class Card extends Component
+class ExtendedCard extends Component
 {
     public $title;
     public $slug;
@@ -12,6 +12,6 @@ class Card extends Component
     public $tags = [];
     public function render()
     {
-        return view('livewire.card');
+        return view('livewire.extended-card');
     }
 }
