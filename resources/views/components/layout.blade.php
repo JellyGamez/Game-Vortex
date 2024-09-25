@@ -5,15 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $title ? 'Game Vortex - ' . $title : 'Game Vortex' }}</title>
+    <title> {{ $title ? 'Game Vortex - ' . $title : 'Game Vortex' }} </title>
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-gray-800 min-h-screen lg:mx-14">
+<body class="bg-gray-800 min-h-screen lg:mx-14 my-4">
 
-    <header class="mx-auto h-14 bg-gray-950 rounded-b-full max-w-7xl w-full shadow-lg flex items-center">
+    <header class="mx-auto h-14 bg-gray-950 rounded-full max-w-7xl w-full shadow-lg flex items-center">
         <div class="flex justify-between text-cyan-primary font-semibold w-full mx-8 md:mx-10 h-full relative text-sm lg:text-base">
-        
             <div class="flex justify-center items-center absolute w-full h-full z-1">
                 <a href="/" wire:navigate class="p-1.5 rounded-full hover:bg-gray-800 transition duration-250 text-2xl font-bold flex items-center"> 
                     <img src="img/full-logo.png" class="h-full max-h-6 lg:max-h-7" alt="GAME VORTEX">
@@ -39,7 +38,6 @@
                     </svg>
                 </div>
             </div>
-
         </div>
     </header>
 
@@ -49,7 +47,7 @@
         </div>
     </main>
 
-    <footer class="mx-auto h-14 bg-gray-950 lg:rounded-t-full max-w-7xl w-full shadow-lg flex items-center">
+    <footer class="mx-auto h-14 bg-gray-950 lg:rounded-full max-w-7xl w-full shadow-lg flex items-center">
         <div class="flex justify-between text-cyan-primary w-full mx-6 lg:mx-20 text-xs md:text-sm">
             <div class="flex justify-end">
                 <a href="https://www.igdb.com/api" class="p-1.5 rounded-full hover:bg-gray-800 transition duration-250 text-center">

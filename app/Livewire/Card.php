@@ -10,6 +10,7 @@ class Card extends Component
     public $slug;
     public $platforms = [];
     public $tags = [];
+    
     public function render()
     {
         return view('livewire.card');
